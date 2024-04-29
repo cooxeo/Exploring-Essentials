@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Pagination } from "swiper/modules";
 import { RxArrowTopRight } from "react-icons/rx";
 import { ServiceData } from "../constants";
+import bg from '../assets/bg.jpg'
 
 
 
@@ -12,11 +13,11 @@ const Sefety = () => {
     <div className="w-full h-[600px]  relative object-cover top-0  p-0">
             <img 
         className="w-full h-[600px] object-cover p-0 absolute bottom-0 inset-x-0 clip-bottom"
-        src="https://img.freepik.com/free-photo/woman-exploring-beautiful-rural-surroundings_23-2149125524.jpg?w=1060&t=st=1714149792~exp=1714150392~hmac=8d56c423fa98bb7f475f422a22f1f5f61c4044ab06e3eae8b7fc99054456a5ea"
+        src={bg}
         />
         <div className="absolute w-full h-full top-0 left-0 bg-gray-900/30"></div>
         <div className='  h-full top-0 absolute w-full  flex flex-col justify-center text-center text-white p-4'>
-            <div><p className='font-normal text-lg'>Go where you feel most alive.</p><h1 className='sm:text-5xl text-4xl font-semibold text-white'>Health and safety travel tips.<span className='text-orange-500 sm:text-6xl text-5xl'></span></h1>
+            <div><p className='font-normal text-lg'>Go where you feel most alive.</p><h1 className='sm:text-5xl text-4xl font-semibold text-white'>Health <span className='text-orange-500'>and</span> safety travel tips.<span className='text-orange-500 sm:text-6xl text-5xl'></span></h1>
             </div>
         </div>
         </div>

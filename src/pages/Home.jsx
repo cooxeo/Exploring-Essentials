@@ -41,8 +41,6 @@ import { ServiceData } from "../constants";
 import { NavLink } from 'react-router-dom';
 
 
-import Swal from 'sweetalert2'
-
 
 
 function Home() {
@@ -375,7 +373,7 @@ AP ARAKU HILLSTATION →</button></NavLink>
 
 <div className='bg-[#1b1a1a] h-80 w-full flex flex-col justify-center text-center text-white p-4'>
 <div><h1 className='text-2xl lg:text-5xl sm:text-3xl font-semibold sm:font-bold text-white'>Plan your trip <span className='text-orange-500 text-3xl sm:text-4xl lg:text-6xl'>- Go with feeling!</span></h1>
-        <p className='font-normal text-slate-400 text-lg py-6 sm:w-[60%] text-center items-center mx-auto'>Make your trip filled with a variety of things and activities to do, and places to see and visit - so whatever you're feeling you can always find something that fits your moment</p>
+        <p className='font-normal text-slate-400 text-lg py-6 px-6 sm:px-0 sm:w-[60%] text-center items-center mx-auto'>Make your trip filled with a variety of things and activities to do, and places to see and visit - so whatever you're feeling you can always find something that fits your moment</p>
         </div>
 </div>
 </div>

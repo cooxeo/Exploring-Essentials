@@ -6,6 +6,9 @@ import { MdLocationPin } from "react-icons/md";
 import { GrStar } from "react-icons/gr";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 
+import { TiWeatherShower } from "react-icons/ti";
+import { FaPersonWalkingLuggage } from "react-icons/fa6";
+
 
 
 const Place1 = () => {
@@ -275,13 +278,119 @@ const Place1 = () => {
           >
             <div className='sm:flex gap-6 justify-between flex-wrap'>
           <div className='py-4'>
-          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
-            <div><BsCheck2Circle size={20} className='text-green-500'/></div>
-            Lightweight Clothing : Include comfortable cotton shirts, pants, shorts, and dresses.
+
+
+
+
+
+
+
+{weatherData !== null ? (
+  <div>
+    {weatherData.current.temp_c <= 20 ? (
+      <div><p className='text-lg text-orange-700 pt-6 flex items-center gap-4 font-semibold'> <FaPersonWalkingLuggage size={20} /> Essintials required for travelling.</p>
+
+<div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Warm jacket, Insulated boots, Hat and gloves.
 
           </div>
           <div className='flex items-center gap-4 font-semibold text-lg py-2'>
-          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Rain Gear : Bring a lightweight, waterproof jacket or poncho.
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Maps or GPS device with offline capabilities, Portable charger or power bank for electronic devices.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Snow pants or waterproof trousers, Base layers (thermal underwear).
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Hand warmers, Portable shovel (for snow), Ice scraper for your car.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Blanket or sleeping bag, Flashlight with extra batteries.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Snow chains or traction devices for your vehicle.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Sunglasses (for glare from snow).
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Waterproof matches or lighter.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Multi-tool or Swiss army knife.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Kerosene, barbeque, Athletic gear, Emergency food and water.
+
+          </div>
+
+      </div>
+    ) : (
+      <div>
+        {weatherData.current.temp_c >= 21 && weatherData.current.temp_c <= 28 ? (
+          <div><p className='text-lg text-orange-700 pt-6 flex items-center gap-4 font-semibold'> <FaPersonWalkingLuggage size={20} /> Essintials required for travelling.</p>
+
+<div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Lightweight rain jacket, Umbrella
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Layered clothing (T-shirts, long-sleeve shirts, sweaters).
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Multi-tool or Swiss army knife, Kerosene.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Comfortable walking shoes.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Camera or smartphone for capturing memories.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Travel adapter and converter, Snacks for energy boosts.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Hat, Sunscreen, Sunglasses, Water bottle, Portable charger.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Travel-sized first aid kit.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Light scarf or shawl for chilly evenings, Small backpack or daypack.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Portable travel blanket for picnics or outdoor relaxation.
+
+          </div>
+
+          </div>
+        ) : (
+          <div>
+            {weatherData.current.temp_c >= 29 ? (
+              <div><p className='text-lg text-orange-700 pt-6 flex items-center gap-4 font-semibold'><FaPersonWalkingLuggage size={20} />Essintials required for travelling.</p>
+
+<div className='flex items-center gap-4 font-semibold text-lg py-2'>
+            <div><BsCheck2Circle size={20} className='text-green-500'/></div>Reusable water bottle with built-in filter.
+            
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Quick-dry towel or microfiber towel for beach or pool days.
 
           </div>
           <div className='flex items-center gap-4 font-semibold text-lg py-2'>
@@ -299,24 +408,119 @@ const Place1 = () => {
           <div className='flex items-center gap-4 font-semibold text-lg py-2'>
           <div><BsCheck2Circle size={20} className='text-green-500'/></div>Medications and First Aid Kit :  bandages, antiseptic wipes, pain relievers, and motion sickness pills (if you're prone to travel sickness).
           </div>
-
-          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
-          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Travel Documents.
-          </div>
-
-          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
-          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Electronics and Chargers & Travel Adapter
-          </div>
-
-          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
-          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Cash and Credit/Debit Cards & Travel Insurance.
-          </div>
-
-          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
-          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Snacks & Guidebook or Map
-          </div>
-
           
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Portable charger/power bank.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Quick-dry towel or microfiber towel for beach or pool days.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Items for staying hydrated (water bottle, electrolyte packets, etc.)
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Entertainment items (books, e-reader, portable speaker)
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Snacks and energy bars , Travel journal or notebook, Flip-flops or sandals.
+
+          </div>
+
+              </div>
+            ) : (
+              <p>Invalid Location</p>
+            )}
+          </div>
+        )}
+      </div>
+    )}
+  </div>
+) : (
+  <p>Enter your destination.</p>
+)}
+
+{weatherData !== null ? (
+  <div>
+    {weatherData.current.humidity >= 60 ? (
+      <div>
+      <p className='text-lg text-orange-700 pt-6 flex items-center gap-4 font-semibold' ><TiWeatherShower size={20} />Travel essentials for rainy, humid conditions :
+      </p>
+      <div className='py-2'>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+            <div><BsCheck2Circle size={20} className='text-green-500'/></div>Umbrella or Raincoat: Essential for staying dry during rain showers. Choose a compact and durable umbrella or a waterproof raincoat.
+
+            
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Waterproof Backpack: Keep your belongings safe and dry with a waterproof backpack or dry bag. It's important to protect electronics, documents, and other sensitive items from moisture.
+
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Quick-Dry Clothing: Stay comfortable in wet weather.
+
+               </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Waterproof Footwear: Keep feet dry and safe.
+
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Emergency Whistle: Signal for help if needed.
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Microfiber Towel: Microfiber towels are highly absorbent and dry rapidly.
+
+          </div>
+          
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>First Aid Kit: It's always a good idea to carry a basic first aid kit, including items such as bandages, antiseptic wipes, and pain relievers, in case of minor injuries or emergencies.
+
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Portable Power Bank: Ensure you have a portable power bank to keep your electronic devices charged, especially if you're using them for navigation or communication during your travels.
+
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Waterproof camping gear (tent, sleeping bag, etc.)
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Headlamp or waterproof flashlight with extra batteries.
+
+
+          </div>
+          <div className='flex items-center gap-4 font-semibold text-lg py-2'>
+          <div><BsCheck2Circle size={20} className='text-green-500'/></div>Maps or GPS device with offline capabilities
+          </div>
+
+        </div>
+
+
+      </div>
+    ) : (
+      <div>
+        <p></p>
+      </div>
+    )}
+  </div>
+) : null}
+
+
+
+
+  
+
+
+        
           </div>
           </div>
           </div>
@@ -332,7 +536,7 @@ const Place1 = () => {
             tabindex="-1"
           >
             <div className=''>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243646.9050994306!2d78.24323374273479!3d17.412608639786125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1714060399442!5m2!1sen!2sin" width="100%" height="450" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31425.795163059036!2d77.04357822488024!3d10.080691165294594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0799794d099a6d%3A0x63250e5553c7e0c!2sMunnar%2C%20Kerala%20685612!5e0!3m2!1sen!2sin!4v1714398366768!5m2!1sen!2sin" width="100%" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
@@ -361,8 +565,11 @@ const Place1 = () => {
           <div className='flex py-6 gap-4'>
           <p className='flex gap-2 text-lg font-semibold items-center'><img className=' w-12' src='https://cdn3.iconfinder.com/data/icons/weather-blue-1/64/foggy-1024.png' alt="Weather Icon" /> {weatherData.current.wind_kph} km/h, {weatherData.current.wind_dir}</p>
           <p className='flex text-3xl items-center'><img className=' w-12' src='https://img.icons8.com/?size=512&id=19395&format=png' alt="Weather Icon" /> {weatherData.current.humidity}%</p>
+          
+
           </div>
         </div>
+        
       )}
     </div>
       </div>

@@ -51,7 +51,7 @@ export default function Contact() {
             <div className="lg:max-w-lg">
 
       <div className=" text-center h-auto pb-24 w-full  mx-auto ">
-    <p className='text-black pb-10  font-extrabold text-5xl py-6'>Love to hear from you</p>
+    <p className='text-black pb-10  font-extrabold text-5xl py-6'>Love to hear from you.</p>
     <form className='text-start w-full sm:w-[600px]bw-[300px] rounded-sm shadow-2xl h-auto items-center flex flex-col mx-auto  text-black font-medium bg-white p-4 ' ref={form} onSubmit={sendEmail}>
       <label className='sm:w-[450px] w-[300px]'>Your Name</label>
       <input className='sm:w-[450px] w-[300px] py-1 my-2 rounded-sm text-black px-2 border-2 border-gray-500' type="text" name="from_name"/>

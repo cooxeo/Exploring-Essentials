@@ -23,6 +23,7 @@
     "react-scroll": "^1.9.0",
     "react-slick": "^0.30.2",
     "react-toastify": "^10.0.5",
+    "react-typed": "^2.0.12",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.10.8",
     "swiper": "^11.1.1",

@@ -46,16 +46,16 @@ export default function Footer() {
         //     </div>    
         // </footer>
 
-        <div class="w-full min-h-screen flex items-center justify-center bg-black">
-        <div class="md:w-2/3 w-full px-4 text-white flex flex-col">
+        <div class=" w-full mx-auto px-6 leading-10 sm:px-0 min-h-screen flex items-center justify-center bg-black">
+        <div class=" md:w-[1240px] px-10 w-full text-white flex flex-col">
             <div class="w-full text-7xl font-bold">
-                <h1 class="w-full md:w-2/3">How can we help you. get
+                <h1 class="w-full text-5xl md:w-2/3">How can we help you. get
                     in touch</h1>
             </div>
             <div class="flex mt-8 flex-col md:flex-row md:justify-between py-10">
                 <p class="w-full md:w-2/3 text-gray-400">Ready to start your next adventure? Contact us today to begin planning your dream getaway with Us. Our friendly team is here to assist you every step of the way, from choosing the perfect destination to arranging all the details of your trip.</p>
-                <dev className='flex pt-10 sm:pt-0'>
-                    <h2 className='text-gray-500 text-lg font-sans font-bold flex items-center gap-4 mx-2 '><FaRegFaceGrinWink size={20}/>Adventure Is Out There</h2>
+                <dev className='flex items-center pt-10 sm:pt-0'>
+                    <h2 className='text-gray-500 pt-4 text-lg font-sans font-bold flex items-center gap-4 mx-2 '><FaRegFaceGrinWink size={20}/>Adventure Is Out There</h2>
                     <div className='justify-end flex mx-auto max-w-screen-xl sm:pt-4 ' smooth={true} duration={500}>
                         <ul>
                         <li>
