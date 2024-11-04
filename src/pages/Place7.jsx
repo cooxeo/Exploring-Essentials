@@ -28,20 +28,17 @@ const Place7 = () => {
     console.log('Date',date)
     const slides = [
       {
-        url: 'https://blog.thomascook.in/wp-content/uploads/2020/08/humayun-tomb-delhi-banner.jpg',
+        url: 'https://cdn.kimkim.com/files/a/content_articles/featured_photos/a775c199acab8729c59e80c1ee439c0424e859f7/big-a17b70b106e112447700830bcbc32857.jpg',
       },
       {
-        url: 'https://himalayanrider.com/wp-content/uploads/2022/02/delhi-784x500-1.jpg',
+        url: 'https://media.tacdn.com/media/attractions-splice-spp-674x446/07/1e/45/17.jpg',
       },
       {
-        url: 'https://www.momjunction.com/wp-content/uploads/2015/12/It-was-built-in-1193-by-Qutub-ud-din-Aibak-.jpg',
+        url: 'https://5.imimg.com/data5/SELLER/Default/2022/10/FJ/HE/AK/162238833/jodhpur-jaiselmer-bikaner-jaipur-package-tours-service.jpg',
       },
   
       {
-        url: 'https://shpl.b-cdn.net/wp-content/uploads/2017/11/D.-Humayun-Tomb.jpg',
-      },
-      {
-        url: 'https://www.travelwithcg.com/wp-content/uploads/2022/08/Taj-Mahal-grounds-1024x683.jpg',
+        url: 'https://5.imimg.com/data5/SELLER/Default/2022/10/GE/ZF/EE/162238833/jodhpur-jaisalmer-bikaner-jaipur-package-tours-services.jpg',
       },
     ];
   

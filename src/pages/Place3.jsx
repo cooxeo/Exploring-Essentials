@@ -28,21 +28,15 @@ const Place3 = () => {
     console.log('Date',date)
     const slides = [
       {
-        url: 'https://blog.thomascook.in/wp-content/uploads/2020/08/humayun-tomb-delhi-banner.jpg',
+        url: 'https://www.bigproperty.in/blog/wp-content/uploads/2023/12/Araku_valley_view.jpg',
       },
       {
-        url: 'https://himalayanrider.com/wp-content/uploads/2022/02/delhi-784x500-1.jpg',
+        url: 'https://www.savaari.com/blog/wp-content/uploads/2021/05/Araku-Valley2-weather.jpg',
       },
       {
-        url: 'https://www.momjunction.com/wp-content/uploads/2015/12/It-was-built-in-1193-by-Qutub-ud-din-Aibak-.jpg',
+        url: 'https://vizagtourism.org.in/images/places-to-visit/header/araku-valley-vizag-tourism-entry-fee-timings-holidays-reviews-header.jpg',
       },
   
-      {
-        url: 'https://shpl.b-cdn.net/wp-content/uploads/2017/11/D.-Humayun-Tomb.jpg',
-      },
-      {
-        url: 'https://www.travelwithcg.com/wp-content/uploads/2022/08/Taj-Mahal-grounds-1024x683.jpg',
-      },
     ];
   
     const [currentIndex, setCurrentIndex] = useState(0);

@@ -10,6 +10,7 @@ import { FaPersonWalkingLuggage } from "react-icons/fa6";
 
 
 
+
 const Place9 = () => {
     const [activeTabIndex, setActiveTabIndex] = useState(0);
     const [date, setDate] = useState();
@@ -149,9 +150,9 @@ const Place9 = () => {
         
       <div>
         <div className='bg-black h-20 w-full top-0 uppercase text-3xl text-white '> 
-        <h1 className='max-w-[1240px] px-6 mx-auto text-start items-center pt-8 font-semibold uppercase'>Panchgani</h1>
+        <h1 className='max-w-[1240px] px-6 mx-auto text-start items-center pt-8 font-semibold uppercase'>Panchgani </h1>
         </div>
-        <div className='bg-gray-400 h-1 w-full'><h1 className='bg-orange-500 ml-36 w-[19%] h-1 max-w-[1240px]  text-start '></h1></div>
+        <div className='bg-orange-500 h-1 w-full'></div>
         <div className='w-[90%] h-[100%] px-4 max-w-[1240px] items-center mx-auto '>
 
       <div className='flex flex-wrap sm:flex-nowrap'>

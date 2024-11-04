@@ -27,21 +27,15 @@ const Place4 = () => {
     console.log('Date',date)
     const slides = [
       {
-        url: 'https://blog.thomascook.in/wp-content/uploads/2020/08/humayun-tomb-delhi-banner.jpg',
+        url: 'https://www.team-bhp.com/forum/attachments/travelogues/301809d1267910431-short-trip-hyderabad-bhadrachalam-papikondalu-b14.jpg',
       },
       {
-        url: 'https://himalayanrider.com/wp-content/uploads/2022/02/delhi-784x500-1.jpg',
+        url: 'https://papikondalu.net.in/assets/images/papikondalu-tour-package-from-srikakulam-800x500.png',
       },
       {
-        url: 'https://www.momjunction.com/wp-content/uploads/2015/12/It-was-built-in-1193-by-Qutub-ud-din-Aibak-.jpg',
+        url: 'https://www.adotrip.com/public/images/areas/master_images/5e4143db7f94c-Papikondalu_Attractions.jpg',
       },
   
-      {
-        url: 'https://shpl.b-cdn.net/wp-content/uploads/2017/11/D.-Humayun-Tomb.jpg',
-      },
-      {
-        url: 'https://www.travelwithcg.com/wp-content/uploads/2022/08/Taj-Mahal-grounds-1024x683.jpg',
-      },
     ];
   
     const [currentIndex, setCurrentIndex] = useState(0);

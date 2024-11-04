@@ -27,20 +27,17 @@ const Place12 = () => {
     console.log('Date',date)
     const slides = [
       {
-        url: 'https://blog.thomascook.in/wp-content/uploads/2020/08/humayun-tomb-delhi-banner.jpg',
+        url: 'https://zippitrip.in/serverimage/d28fbd8a-31ac-4dd5-aaf6-9c5831f8f1c2.jpg',
       },
       {
-        url: 'https://himalayanrider.com/wp-content/uploads/2022/02/delhi-784x500-1.jpg',
+        url: 'https://tour360.in/wp-content/uploads/2022/09/1591005403_1st-2.jpg-2.jpg',
       },
       {
-        url: 'https://www.momjunction.com/wp-content/uploads/2015/12/It-was-built-in-1193-by-Qutub-ud-din-Aibak-.jpg',
+        url: 'https://www.trawell.in/admin/images/upload/288555973Pelling_Main.jpg',
       },
   
       {
-        url: 'https://shpl.b-cdn.net/wp-content/uploads/2017/11/D.-Humayun-Tomb.jpg',
-      },
-      {
-        url: 'https://www.travelwithcg.com/wp-content/uploads/2022/08/Taj-Mahal-grounds-1024x683.jpg',
+        url: 'https://www.ftd.travel/upload/other/2012-08-12-03-18-35hill-station.jpg',
       },
     ];
   

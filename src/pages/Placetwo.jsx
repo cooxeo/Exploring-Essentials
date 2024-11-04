@@ -26,20 +26,17 @@ const Placetwo = () => {
     console.log('Date',date)
     const slides = [
       {
-        url: 'https://blog.thomascook.in/wp-content/uploads/2020/08/humayun-tomb-delhi-banner.jpg',
+        url: 'https://www.tourmyindia.com/images/cultural-benner2.jpg',
       },
       {
-        url: 'https://himalayanrider.com/wp-content/uploads/2022/02/delhi-784x500-1.jpg',
+        url: 'https://www.aquays.com/neil-island-hotels/images/resort/neil/about_neil.jpg',
       },
       {
-        url: 'https://www.momjunction.com/wp-content/uploads/2015/12/It-was-built-in-1193-by-Qutub-ud-din-Aibak-.jpg',
+        url: 'https://upload.wikimedia.org/wikipedia/commons/6/63/Havelock%2C_Andaman_%26_Nicobar_Islands.JPG',
       },
   
       {
-        url: 'https://shpl.b-cdn.net/wp-content/uploads/2017/11/D.-Humayun-Tomb.jpg',
-      },
-      {
-        url: 'https://www.travelwithcg.com/wp-content/uploads/2022/08/Taj-Mahal-grounds-1024x683.jpg',
+        url: 'https://www.indiantempletour.com/wp-content/uploads/2022/08/Andaman-and-Nicobar-Islands-Package-1.jpg',
       },
     ];
   

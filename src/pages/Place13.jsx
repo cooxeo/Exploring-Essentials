@@ -27,20 +27,17 @@ const Place13 = () => {
     console.log('Date',date)
     const slides = [
       {
-        url: 'https://blog.thomascook.in/wp-content/uploads/2020/08/humayun-tomb-delhi-banner.jpg',
+        url: 'https://images.assettype.com/fortuneindia%2F2023-04%2F5f63d73f-e123-4935-942b-0d4cb31e4391%2FGoa.jpg?rect=0,535,5100,2869&w=1250&q=60',
       },
       {
-        url: 'https://himalayanrider.com/wp-content/uploads/2022/02/delhi-784x500-1.jpg',
+        url: 'https://gogoacarrentals.com/wp-content/uploads/2019/03/Candolim-Beach.jpg',
       },
       {
-        url: 'https://www.momjunction.com/wp-content/uploads/2015/12/It-was-built-in-1193-by-Qutub-ud-din-Aibak-.jpg',
+        url: 'https://www.itchotels.com/content/dam/itchotels/in/umbrella/itc/hotels/itcgrandgoa-goa/images/overview/headmast-desktop/beach-experience.png',
       },
   
       {
-        url: 'https://shpl.b-cdn.net/wp-content/uploads/2017/11/D.-Humayun-Tomb.jpg',
-      },
-      {
-        url: 'https://www.travelwithcg.com/wp-content/uploads/2022/08/Taj-Mahal-grounds-1024x683.jpg',
+        url: 'https://www.kayak.co.in/rimg/dimg/d2/9a/be99a116-reg-1628-162c0ca0130.jpg?width=1366&height=768&xhint=2496&yhint=2519&crop=true&watermarkposition=lowerright',
       },
     ];
   

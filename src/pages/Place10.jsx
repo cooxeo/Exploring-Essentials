@@ -27,21 +27,19 @@ const Place10 = () => {
     console.log('Date',date)
     const slides = [
       {
-        url: 'https://blog.thomascook.in/wp-content/uploads/2020/08/humayun-tomb-delhi-banner.jpg',
+        url: 'https://www.holidify.com/images/cmsuploads/compressed/shutterstock_633164246_20190904103856_20190904103926.jpg',
       },
       {
-        url: 'https://himalayanrider.com/wp-content/uploads/2022/02/delhi-784x500-1.jpg',
+        url: 'https://travel.clickforholiday.com/image/202023230150.jpg',
       },
       {
-        url: 'https://www.momjunction.com/wp-content/uploads/2015/12/It-was-built-in-1193-by-Qutub-ud-din-Aibak-.jpg',
+        url: 'https://swastiktours.com/wp-content/uploads/2016/12/Delhi-Shimla-Kullu-Manali-Chandigarh-student-tour.jpg',
       },
   
       {
-        url: 'https://shpl.b-cdn.net/wp-content/uploads/2017/11/D.-Humayun-Tomb.jpg',
+        url: 'https://media.tacdn.com/media/attractions-splice-spp-674x446/07/54/7b/27.jpg',
       },
-      {
-        url: 'https://www.travelwithcg.com/wp-content/uploads/2022/08/Taj-Mahal-grounds-1024x683.jpg',
-      },
+      
     ];
   
     const [currentIndex, setCurrentIndex] = useState(0);
